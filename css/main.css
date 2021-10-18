@@ -1,0 +1,98 @@
+body {
+    background-color: rgba(233, 232, 232, 0.8);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.sign-in-img{
+    width: 10vw;
+}
+
+.login-btn, .logout-btn, .admin-btn, .logout-button{
+  background-color: #4CAF50; 
+  margin: 15px;
+  border: none;
+  color: white;
+  width: 25vw;
+  height: 8vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.login-btn:hover, .logout-btn:hover, .admin-btn:hover, .logout-button:hover{
+    cursor: pointer;
+    background-color: #19741c; 
+}
+
+.login-section{
+    display: block
+}
+
+.after-log{
+    display: none;
+}
+
+.signned-up-img{
+    width: 40%;
+    height: 40%;
+}
+
+.hide{
+    display: none;
+}
+
+.users-table table, td, th{
+    background-color: #e3b1b2;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: 50px auto;
+}
+
+.cards-content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    margin: 10vw ;
+    justify-content: center;
+
+}
+
+.cards-content .person{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url('https://st3.depositphotos.com/6064568/12938/v/950/depositphotos_129380768-stock-illustration-man-programmer-hipster-is-working.jpg');
+    background-size: contain;
+    background-color: #C9CCD5;
+    margin: 10px;
+    
+}
+
+.cards-present{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    margin: 10vw ;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: #C9CCD5;
+    margin: 30px 10px;
+    border: 1px solid grey;
+    display: inline-block;
+    
+}
+
